@@ -56,13 +56,13 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Zhuangzhuang Dai</a></span>
+                <a href="https://research.aston.ac.uk/en/persons/zhuangzhuang-dai" target="_blank">Zhuangzhuang Dai</a></span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Vincent Gbouna Zakka</a></span>
+                  <a href="https://scholar.google.com/citations?user=XTgcz5cAAAAJ&hl=en" target="_blank">Vincent Gbouna Zakka</a></span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Luis J. Manso</a>
+                    <a href="https://ljmanso.com/" target="_blank">Luis J. Manso</a>
                     <span class="author-block">
-                      <a href="FOURTH AUTHOR PERSONAL LINK" target="_blank">Chen Li</a><sup>*</sup>,
+                      <a href="https://vbn.aau.dk/da/persons/142294" target="_blank">Chen Li</a><sup>*</sup>,
                     </span>
                   </div>
 
@@ -134,23 +134,16 @@
           <img src="static/images/robotvision.png" alt="MY ALT TEXT" style="margin: 0 auto;" />
         </figure>
         <h2 class="subtitle has-text-centered">
-          Illustration.
+          Gaze Target 360 can predict all three gaze target regions: in-frame (IFT), out-of-frame (OFT), and eye contact (EC).
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
         <img src="static/images/GT360_net2.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Architecture.
+          System architecture. The detected heads will inflict eye contact detection. If non-eye-contacting is decided, the gaze target estimation engine will process the image consuming full background as contextual information. A multi-scale fusion (MSF) module utilizes multi-scale tokenization to aggregate three-stage receptive fields for fine-grained gaze and target representation learning.
         </h2>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/GT360_examples.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Demonstration of results.
-       </h2>
-     </div>
   </div>
 </div>
 </div>
@@ -179,6 +172,12 @@
 </section>
 <!-- End youtube video -->
 
+<section class="section">
+  <div class="container is-max-desktop has-text-centered">
+    <img src="static/images/GT360_examples.jpg" alt="Descriptive alternative text" style="max-width: 100%; height: auto;">
+    <p class="subtitle is-5">Green boxes indicate detected heads. A green rendering represents eye contact (EC); a red rendering represents gazing at out-of-frame target (OFT); an arrow pointing toward a green dot represents in-frame target (IFT) location with an overlaying heatmap. The system produces consistent performance across datasets.</p>
+  </div>
+</section>
 
 <!--
 <section class="hero is-small">
